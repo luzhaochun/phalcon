@@ -1,0 +1,25 @@
+[Mon, 02 Mar 15 09:41:18 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_members'
+[Mon, 02 Mar 15 09:41:18 +0800][INFO] DESCRIBE `tx_members`
+[Mon, 02 Mar 15 09:41:18 +0800][INFO] SELECT `tx_members`.`mid`, `tx_members`.`parentid`, `tx_members`.`note`, `tx_members`.`mname`, `tx_members`.`mpwd`, `tx_members`.`pwd_reset`, `tx_members`.`email`, `tx_members`.`mobile`, `tx_members`.`mchild`, `tx_members`.`reg_ip`, `tx_members`.`reg_time`, `tx_members`.`last_login_time`, `tx_members`.`last_login_ip`, `tx_members`.`login_counts`, `tx_members`.`update_time`, `tx_members`.`del`, `tx_members`.`status` FROM `tx_members` WHERE `tx_members`.`mname` = 'cmsadmin' AND `tx_members`.`mpwd` = 'e10adc3949ba59abbe56e057f20f883e' AND `tx_members`.`del` = 'false' AND `tx_members`.`status` = 'true' LIMIT 1
+[Mon, 02 Mar 15 09:41:18 +0800][INFO] UPDATE `tx_members` SET `parentid` = ?, `note` = ?, `mname` = ?, `mpwd` = ?, `pwd_reset` = ?, `email` = ?, `mobile` = ?, `mchild` = ?, `reg_ip` = ?, `reg_time` = ?, `last_login_time` = ?, `last_login_ip` = ?, `login_counts` = ?, `update_time` = ?, `del` = ?, `status` = ? WHERE `mid` = ? 0, , cmsadmin, e10adc3949ba59abbe56e057f20f883e, 0, lhappy@163.com, 13612356952, 1, 127.0.0.1, 1414722024, 1425260478, ::1, 62, 0, false, true, 1
+[Mon, 02 Mar 15 09:48:21 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 09:48:21 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 09:48:49 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 09:48:49 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 09:49:01 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_config'
+[Mon, 02 Mar 15 09:49:01 +0800][INFO] DESCRIBE `tx_config`
+[Mon, 02 Mar 15 09:49:01 +0800][INFO] INSERT INTO `tx_config` (`variable_name`, `variable_value`, `variable_title`, `extra`, `group`, `sort`, `remark`, `type`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) 212, 111, 2121, 3232, 1, 0, 3223, 1, 0
+[Mon, 02 Mar 15 09:49:01 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 09:49:01 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 09:49:14 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 09:49:14 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 09:49:15 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 09:49:15 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 09:49:16 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 09:49:16 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 09:49:19 +0800][INFO] delete from tx_config where id =44
+[Mon, 02 Mar 15 09:49:20 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 09:49:20 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 09:49:24 +0800][INFO] delete from tx_config where id =43
+[Mon, 02 Mar 15 09:49:24 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 09:49:24 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10

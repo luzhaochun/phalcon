@@ -1,0 +1,4 @@
+[Sat, 28 Feb 15 18:26:49 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 18:26:49 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 18:26:50 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 18:26:50 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10

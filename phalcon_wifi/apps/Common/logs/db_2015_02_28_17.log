@@ -1,0 +1,46 @@
+[Sat, 28 Feb 15 17:40:19 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_config'
+[Sat, 28 Feb 15 17:40:19 +0800][INFO] DESCRIBE `tx_config`
+[Sat, 28 Feb 15 17:40:19 +0800][INFO] INSERT INTO `tx_config` (`variable_name`, `variable_value`, `variable_title`, `extra`, `group`, `sort`, `remark`, `type`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) 212, 11, 112, 222, 0, 0, 222, 8, 0
+[Sat, 28 Feb 15 17:43:40 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_config'
+[Sat, 28 Feb 15 17:43:40 +0800][INFO] DESCRIBE `tx_config`
+[Sat, 28 Feb 15 17:43:40 +0800][INFO] INSERT INTO `tx_config` (`variable_name`, `variable_value`, `variable_title`, `extra`, `group`, `sort`, `remark`, `type`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) 212, 11, 112, 222, 0, 0, 222, 8, 0
+[Sat, 28 Feb 15 17:43:41 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:43:41 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:43:46 +0800][INFO] delete from tx_config where id =38
+[Sat, 28 Feb 15 17:43:47 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_config'
+[Sat, 28 Feb 15 17:43:47 +0800][INFO] DESCRIBE `tx_config`
+[Sat, 28 Feb 15 17:43:47 +0800][INFO] INSERT INTO `tx_config` (`variable_name`, `variable_value`, `variable_title`, `extra`, `group`, `sort`, `remark`, `type`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) 212, 11, 112, 222, 0, 0, 222, 8, 0
+[Sat, 28 Feb 15 17:43:47 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:43:47 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:43:50 +0800][INFO] delete from tx_config where id =39
+[Sat, 28 Feb 15 17:43:51 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_config'
+[Sat, 28 Feb 15 17:43:51 +0800][INFO] DESCRIBE `tx_config`
+[Sat, 28 Feb 15 17:43:51 +0800][INFO] INSERT INTO `tx_config` (`variable_name`, `variable_value`, `variable_title`, `extra`, `group`, `sort`, `remark`, `type`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) 212, 11, 112, 222, 0, 0, 222, 8, 0
+[Sat, 28 Feb 15 17:43:51 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:43:51 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:43:57 +0800][INFO] delete from tx_config where id in (40)
+[Sat, 28 Feb 15 17:43:57 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:43:57 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:45:13 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_config'
+[Sat, 28 Feb 15 17:45:13 +0800][INFO] DESCRIBE `tx_config`
+[Sat, 28 Feb 15 17:45:13 +0800][INFO] INSERT INTO `tx_config` (`variable_name`, `variable_value`, `variable_title`, `extra`, `group`, `sort`, `remark`, `type`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) 21312, adfadsf, 112, sdafa, 4, 0, asdfsad, 1, 0
+[Sat, 28 Feb 15 17:45:13 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:45:13 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:45:22 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:45:22 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:45:30 +0800][INFO] delete from tx_config where id in (41)
+[Sat, 28 Feb 15 17:45:30 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:45:30 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:45:49 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_config'
+[Sat, 28 Feb 15 17:45:49 +0800][INFO] DESCRIBE `tx_config`
+[Sat, 28 Feb 15 17:45:49 +0800][INFO] INSERT INTO `tx_config` (`variable_name`, `variable_value`, `variable_title`, `extra`, `group`, `sort`, `remark`, `type`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) 1211221, 2121, 21212121, 21, 0, 0, 1221, 8, 0
+[Sat, 28 Feb 15 17:45:49 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:45:49 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:45:56 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:45:56 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:46:18 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:46:18 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:46:20 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:46:20 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Sat, 28 Feb 15 17:48:52 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Sat, 28 Feb 15 17:48:52 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10

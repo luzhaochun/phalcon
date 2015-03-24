@@ -1,0 +1,115 @@
+<?= \Phalcon\Tag::getDoctype() ?>
+<html>
+	<head>
+		<title>Wifi营销精灵--后台管理</title>	
+		{% include "public/assert.html" %}
+	</head>
+	<script type="text/javascript">
+	    $(function(){
+	    	$("#conf_frm").validate({
+	    		messages:{
+	    			variable_name:{
+	    				required:"配置标识必填"
+	    			},
+	    			variable_title:{
+	    				required:"配置标题必填"
+	    			},
+	    			sort:{
+	    				digits:"排序只能输入整数"
+	    			}
+	    		}
+	    	});
+	    	
+	    })
+	</script>
+<body>
+<div class="inner_box">
+<div class="page_title">
+	<div class="title_list"><div style="padding-left:13px;">配置管理-<span>添加配置</span></div></div>
+</div>
+<div class="user_manage">
+	<ul class="tab" id="tab">
+		<li class="hover">添加配置</li>
+	</ul>
+    
+	<div class="user_lists">
+	<div class="user_list show">
+		<?php echo Phalcon\Tag::form(array('Config/addConfig', 'method' => 'post','id' => 'conf_frm','name'=>'conf_frm')); ?>
+			<div class="wrapper">
+				<table width="100%" class="table_form">
+					<tbody>
+						<tr>
+							<td width="80"><label>配置标识：</label></td> 
+							<td width="150">
+				            	<input type="text" name="variable_name" class="input-text required" id="variable_name" value="<?php echo !empty($post['variable_name']) ? $post['variable_name'] : '';?>">
+				            	<span class="Validform_checktip Validform_show">用于C函数调用，只能使用英文且不能重复</span>
+				            	<label style="text-align:left;color:red;font-weight:normal;display: block;font-size: 12px;" id="variable_name-error" class="error" for="variable_name"></label>
+				            </td>
+						</tr>
+						<tr>
+							<td><label>配置标题：</label></td> 
+							<td>
+				            	<input type="text" name="variable_title" class="input-text required" id="variable_title" value="<?php echo !empty($post['variable_title']) ? $post['variable_title'] : '';?>">
+				            	<span class="Validform_checktip Validform_show">用于后台显示的配置标题</span>
+				            	<label style="text-align:left;color:red;font-weight:normal;display: block;font-size: 12px;" id="variable_title-error" class="error" for="variable_title"></label>
+				            </td>
+						</tr>
+						<tr>
+							<td><label>排序：</label></td> 
+							<td>
+				            	<input type="text" name="sort" class="input-text digits" id="sort" value="<?php echo !empty($post['sort']) ? $post['sort'] : 0;?>" size="10" datatype="n" errormsg="排序只能为数字">
+				                <span class="Validform_checktip Validform_show">用于分组显示的顺序</span>
+				                <label style="text-align:left;color:red;font-weight:normal;display: block;font-size: 12px;" id="sort-error" class="error" for="sort"></label>
+				            </td>
+						</tr>
+						<tr>
+							<td><label>配置类型：</label></td> 
+							<td>
+				            	<select name="type">
+				            	   <option value="8">数字</option><option value="1">字符</option><option value="2">文本</option><option value="3">数组</option><option value="4">枚举</option><option value="5">密码</option><option value="6">长文本</option><option value="7">加长文本</option>			
+				               </select>
+				                <span class="Validform_checktip Validform_show">系统会根据不同类型解析配置值</span>
+				            </td>
+						</tr>
+						<tr>
+							<td><label>配置分组：</label></td>
+							<td>
+								<select name="group">
+									<option value="0">不分组</option>
+				                    <option value="1">图片配置</option><option value="2">路由器配置</option><option value="3">短信网关配置</option><option value="4">邮件配置</option><option value="5">系统配置</option>			
+				               </select>
+				               <span class="Validform_checktip Validform_show">配置分组 用于批量设置 不分组则不会显示在系统设置中</span>
+							</td>
+						</tr>
+						<tr>
+							<td><label>配置值：</label></td>
+							<td>
+								<textarea name="variable_value" id="variable_value" cols="50" rows="6" style="width:450px;height:95px;"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td><label>配置项：</label></td>
+							<td>
+				            	<textarea name="extra" id="extra" cols="50" rows="6" style="width:450px;height:95px;"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td><label>说明：</label></td>
+							<td>
+								<textarea name="remark" id="remark" cols="50" rows="6" style="width:450px;height:95px;"></textarea>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div style="height:50px; line-height:50px;padding-left:21%;"><button class="add-btn" id="user_submit" type="submit">提交</button>
+			    <span id="errorTip" style="color:red;"><?php echo !empty($errorMsg) ? $errorMsg : '';?></span>
+			</div>
+		</form>
+	</div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

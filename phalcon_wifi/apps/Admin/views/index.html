@@ -1,0 +1,17 @@
+<?= \Phalcon\Tag::getDoctype() ?>
+<html>
+	<head>
+		<title>Wifi营销精灵--{{ title }}</title>	
+		{{ stylesheet_link('css/global.css') }}	
+		{{ stylesheet_link('css/main.css') }}	
+		{{ javascript_include('js/jquery-1.11.0.min.js') }}
+		{{ javascript_include('js/DD_belatedPNG.js') }}
+		{{ javascript_include('js/main.js') }}
+		<script>
+		    DD_belatedPNG.fix('*');
+		</script>
+	</head>
+	<body>
+		<?php echo $this->getContent(); ?>
+	</body>
+</html>

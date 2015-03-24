@@ -1,0 +1,59 @@
+<?= \Phalcon\Tag::getDoctype() ?>
+<html>
+	<head>
+		<title>Wifi营销精灵--{{ title }}</title>	
+		{% include "public/assert.html" %}
+	</head>
+<body>
+<div class="inner_box">
+	<div class="page_title">
+		<div class="title_list"><div style="padding-left:13px;">操作日志-<span>列表</span></div></div>
+	</div>
+	<div class="user_date fl">
+		<div class="date">
+			<div class="date03 clearfix">
+				<h3>操作日志</h3>
+				<div class="stable">
+					<table style="table-layout: auto;">
+						<thead>
+							<tr>
+								<th name="id" class="hover enable">Id</th>
+								<th name="name" class="hover enable">MID</th>
+								<th name="name" class="hover enable">操作</th>
+								<th name="operate" class="hover enable">时间</th>
+								<th name="operate" class="hover enable">IP</th>
+							</tr>
+						</thead>
+						<tbody>
+							<?php if (!empty($records["data"])) {?>
+								<?php foreach ($records["data"] as $record) { ?>
+								<tr>
+									<td><div><?php echo $record["id"];?></div></td>
+									<td><div><?php echo $record["mid"];?></div></td>
+									<td><div><?php echo $record["operation"];?></div></td>
+									<td><div><?php echo $record["log_time"];?></div></td>
+									<td><div><?php echo $record["loginip"];?></div></td>
+								</tr>
+								<?php } ?>
+							<?php } ?>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="page-list" style="margin-top:30px;">
+				{% include "public/pager.html" %}
+			</div>
+		</div>
+	</div>
+</div>
+<!-- html5.js for IE less than 9 --> 
+<!--[if lt IE 9]>
+	<script src="{{ javascript_include('js/html5.js') }}"></script>
+<![endif]--> 
+
+<!-- css3-mediaqueries.js for IE less than 9 --> 
+<!--[if lt IE 9]>
+	<script	src="{{ javascript_include('js/html5.js') }}./js/css3-mediaqueries.js"></script>
+<![endif]-->
+</body>
+</html>

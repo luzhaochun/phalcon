@@ -1,0 +1,27 @@
+[Mon, 02 Mar 15 10:07:45 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:07:45 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:07:47 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:07:47 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:18:06 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:18:06 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:18:19 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:18:19 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:21:27 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:21:27 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:43:44 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:43:44 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:43:46 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:43:46 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:43:48 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:43:48 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:43:49 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:43:49 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:44:03 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_config'
+[Mon, 02 Mar 15 10:44:03 +0800][INFO] DESCRIBE `tx_config`
+[Mon, 02 Mar 15 10:44:03 +0800][INFO] INSERT INTO `tx_config` (`variable_name`, `variable_value`, `variable_title`, `extra`, `group`, `sort`, `remark`, `type`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) lin, sdfasdf, ling, sadfsdaf, 3, 0, dsfa, 8, 0
+[Mon, 02 Mar 15 10:44:03 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:44:03 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:48:08 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:48:08 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 02 Mar 15 10:48:17 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 10:48:17 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10

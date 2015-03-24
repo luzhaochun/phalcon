@@ -1,0 +1,16 @@
+[Tue, 10 Mar 15 11:43:47 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Tue, 10 Mar 15 11:43:47 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Tue, 10 Mar 15 11:43:50 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Tue, 10 Mar 15 11:43:50 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Tue, 10 Mar 15 11:43:52 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Tue, 10 Mar 15 11:43:52 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Tue, 10 Mar 15 11:43:54 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE `type` = 1
+[Tue, 10 Mar 15 11:43:54 +0800][INFO] SELECT * FROM tx_config WHERE `type` = 1 ORDER BY id desc LIMIT 0, 10
+[Tue, 10 Mar 15 11:43:56 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE `group` = 1 AND `type` = 1
+[Tue, 10 Mar 15 11:43:56 +0800][INFO] SELECT * FROM tx_config WHERE `group` = 1 AND `type` = 1 ORDER BY id desc LIMIT 0, 10
+[Tue, 10 Mar 15 11:43:58 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE `group` = 1 AND `type` = 1
+[Tue, 10 Mar 15 11:43:58 +0800][INFO] SELECT * FROM tx_config WHERE `group` = 1 AND `type` = 1 ORDER BY id desc LIMIT 0, 10
+[Tue, 10 Mar 15 11:43:58 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE `group` = 1 AND `type` = 1
+[Tue, 10 Mar 15 11:43:58 +0800][INFO] SELECT * FROM tx_config WHERE `group` = 1 AND `type` = 1 ORDER BY id desc LIMIT 0, 10
+[Tue, 10 Mar 15 11:43:58 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE `group` = 1 AND `type` = 1
+[Tue, 10 Mar 15 11:43:58 +0800][INFO] SELECT * FROM tx_config WHERE `group` = 1 AND `type` = 1 ORDER BY id desc LIMIT 0, 10

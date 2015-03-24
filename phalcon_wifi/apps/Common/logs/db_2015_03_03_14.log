@@ -1,0 +1,10 @@
+[Tue, 03 Mar 15 14:15:55 +0800][INFO] SELECT count(*) AS total FROM tx_members WHERE 1
+[Tue, 03 Mar 15 14:15:55 +0800][INFO] SELECT * FROM tx_members WHERE 1 ORDER BY mid DESC LIMIT 0, 10
+[Tue, 03 Mar 15 14:16:01 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Tue, 03 Mar 15 14:16:01 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Tue, 03 Mar 15 14:16:03 +0800][INFO] SELECT count(*) AS total FROM tx_record WHERE TRUE
+[Tue, 03 Mar 15 14:16:03 +0800][INFO] SELECT * FROM tx_record WHERE TRUE ORDER BY id DESC LIMIT 0, 10
+[Tue, 03 Mar 15 14:16:06 +0800][INFO] SELECT count(*) AS total FROM tx_record WHERE TRUE
+[Tue, 03 Mar 15 14:16:06 +0800][INFO] SELECT * FROM tx_record WHERE TRUE ORDER BY id DESC LIMIT 10, 10
+[Tue, 03 Mar 15 14:16:08 +0800][INFO] SELECT count(*) AS total FROM tx_record WHERE TRUE
+[Tue, 03 Mar 15 14:16:08 +0800][INFO] SELECT * FROM tx_record WHERE TRUE ORDER BY id DESC LIMIT 20, 10

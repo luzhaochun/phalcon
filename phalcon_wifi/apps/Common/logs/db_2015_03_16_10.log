@@ -1,0 +1,6 @@
+[Mon, 16 Mar 15 10:26:51 +0800][INFO] SELECT count(*) AS total FROM tx_members WHERE 1
+[Mon, 16 Mar 15 10:26:51 +0800][INFO] SELECT * FROM tx_members WHERE 1 ORDER BY mid DESC LIMIT 0, 10
+[Mon, 16 Mar 15 10:26:55 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 16 Mar 15 10:26:55 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Mon, 16 Mar 15 10:27:00 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 16 Mar 15 10:27:00 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10

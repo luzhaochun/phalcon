@@ -1,0 +1,2 @@
+[Mon, 02 Mar 15 18:19:00 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Mon, 02 Mar 15 18:19:00 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10

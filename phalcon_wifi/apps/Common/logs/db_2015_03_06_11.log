@@ -1,0 +1,43 @@
+[Fri, 06 Mar 15 11:11:44 +0800][INFO] SELECT count(*) AS total FROM tx_members WHERE 1
+[Fri, 06 Mar 15 11:11:44 +0800][INFO] SELECT * FROM tx_members WHERE 1 ORDER BY mid DESC LIMIT 0, 10
+[Fri, 06 Mar 15 11:11:46 +0800][INFO] SELECT count(*) AS total FROM tx_members WHERE 1
+[Fri, 06 Mar 15 11:11:46 +0800][INFO] SELECT * FROM tx_members WHERE 1 ORDER BY mid DESC LIMIT 0, 10
+[Fri, 06 Mar 15 11:11:53 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:11:53 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:11:57 +0800][INFO] SELECT count(*) AS total FROM tx_record WHERE TRUE
+[Fri, 06 Mar 15 11:11:57 +0800][INFO] SELECT * FROM tx_record WHERE TRUE ORDER BY id DESC LIMIT 0, 10
+[Fri, 06 Mar 15 11:11:59 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:11:59 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:12:02 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:12:02 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:12:05 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:12:05 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:12:15 +0800][INFO] SELECT IF(COUNT(*)>0, 1 , 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`='tx_config'
+[Fri, 06 Mar 15 11:12:15 +0800][INFO] DESCRIBE `tx_config`
+[Fri, 06 Mar 15 11:12:15 +0800][INFO] INSERT INTO `tx_config` (`variable_name`, `variable_value`, `variable_title`, `extra`, `group`, `sort`, `remark`, `type`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) 21312, asdf, 112, sdaf, 0, 0, dsf, 6, 0
+[Fri, 06 Mar 15 11:12:15 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:12:15 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:12:25 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:12:25 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:13:47 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:13:47 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:13:49 +0800][INFO] SELECT count(*) AS total FROM tx_record WHERE TRUE
+[Fri, 06 Mar 15 11:13:49 +0800][INFO] SELECT * FROM tx_record WHERE TRUE ORDER BY id DESC LIMIT 0, 10
+[Fri, 06 Mar 15 11:13:59 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:13:59 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:14:17 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:14:17 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:23:44 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:23:44 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:23:47 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:23:47 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 30, 10
+[Fri, 06 Mar 15 11:23:49 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:23:49 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:24:23 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:24:23 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:27:58 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:27:58 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:29:33 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:29:33 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
+[Fri, 06 Mar 15 11:33:38 +0800][INFO] SELECT count(*) AS total FROM tx_config WHERE 1
+[Fri, 06 Mar 15 11:33:38 +0800][INFO] SELECT * FROM tx_config WHERE 1 ORDER BY id desc LIMIT 0, 10
